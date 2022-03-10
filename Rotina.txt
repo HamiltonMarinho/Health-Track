@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-pr">
+	<head>
+		<meta charset="utf-8">
+		<title>Dia a Dia</title>
+		<meta name="keywords" content="health, track">
+		<style>
+			body { background-color: lightgreen; }
+ 		</style>
+ 	<head>
+ 	<body>
+ 		<h1> Dia a Dia </h1>
+ 		 		
+ 		<form id="Trabalha" method="POST" action="Trabalha.php">
+ 		<label for="Trabalha">Trabalha:</label><br><br>
+
+ 		<input type="radio" name="Trabalha" value="Sim">Sim<br><br>
+ 				<form id="Trabalho" method="POST">
+ 				<label for="Ramo">Ramo de atividade:</label>
+				<input list="Trabalho" name="Ramo" maxlength="20" value="Instituicoes Financeiras" disabled><br><br>
+
+				<label for="Funcao">Funcao:</label>
+				<input list="Trabalho" name="Funcao" maxlength="50" value="Telemarketing" disabled><br><br>
+ 		
+ 		<input type="radio" name="Trabalha" value="Nao">Nao<br><br>
+		</form>
+
+ 		<form id="Rotina" method="POST">
+ 			<label for="Rotina">Descreva Sua Rotina:</label><br><br>
+
+ 			<textarea id="Rotina" rows="6" cols="60" disabled>Pratico arco e flecha de 2x a 3x na semana e adoro jogar videogames, se possivel todos os dias rs</textarea>
+ 		</form><br>
+
+ 		<a href="C:\Users\Hamilton\Desktop\html\Dashboard.html">Continuar</a>
+ 		</form>
+ 	</body>	

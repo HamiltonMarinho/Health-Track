@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-pr">
+	<head>
+		<meta charset="utf-8">
+		<title>Dados Pessoais</title>
+		<meta name="keywords" content="health, track">
+		<style>
+			body { background-color: lightgreen; }
+ 		</style>
+ 	</head>
+ 	<body>
+ 		<h1> DADOS PESSOAIS </h1>
+
+ 		<form id="Login" method="POST" action="Login.php">
+ 		<label for="nome">Login:</label>
+ 		<input type="text" id="nome" maxlength="10" value="Joao007" disabled><br><br>
+
+ 		<form id="Senha" method="POST" action="Senha.php">
+ 		<label for="nome">Senha:</label>
+ 		<input type="password" id="nome" maxlength="8" value="12345678" disabled><br><br>
+
+ 		<form id="Nome Completo" method="POST" action="Nome Completo.php">
+ 		<label for="nome">Nome Completo:</label>
+ 		<input type="text" id="nome" maxlength="50" value="Joao da Silva" disabled><br><br>
+
+ 		<form id="Data de Nascimento" method="POST" action="Data de Nascimento.php">
+ 		<label for="nome">Data de Nascimento:</label>
+ 		<input type="text" id="nome" maxlength="10" value="14/04/1993" disabled><br><br>
+
+ 		<form id="E-mail" method="POST" action="E-mail.php">
+ 		<label for="E-mail">E-mail:</label>
+ 		<input type="text" id="E-mail" maxlength="50" value="joao.silva@mail.com" disabled><br><br>
+ 		
+ 		<form id="Endereco" method="POST" action="Endereco.php">
+ 		<label for="Endereco">Endereco:</label>
+ 		<input type="text" id="Endereco" value="Rua das gracas 80, Centro/SP" disabled><br><br>
+
+ 		<form id="Telefone1" method="POST" action="Telefone1.php">
+ 			<fieldset>
+ 				<legend>Telefones</legend>
+		 		<label for="Telefone1">Telefone Residencial:</label>
+		 		<input type="text" id="Telefone1" maxlength="14" value="(11) 2350-1059" disabled><br><br>
+
+		 		<form id="Telefone2" method="POST" action="Telefone2.php">
+		 		<label for="Telefone2">Telefone Celular:</label>
+		 		<input type="text" id="Telefone2" maxlength="15" value="(11) 98899-1058" disabled><br>
+		 	</fieldset><br>
+
+	 	<form id="Estado Civil" method="POST" action="Estado Civil.php">
+	 	<label for="Estado Civil">Estado Civil:</label>
+	 		<select id="Estado Civil" name="Estado Civil">
+	 			<option value="Solteiro" disabled>Solteiro</option>
+	 			<option value="Casado" disabled>Casado</option>
+	 			<option value="Separado" disabled>Separado</option>
+	 			<option value="Divorciado" disabled>Divorciado</option>
+	 			<option value="Viuvo" disabled>Viuvo</option>
+	 	</select><br><br>
+
+ 		<form id="Sexo" method="POST" action="Sexo.php">
+ 		<label for="Sexo">Sexo:</label>
+ 		<input type="radio" name="Sexo" value="Masculino">Masculino
+ 		<input type="radio" name="Sexo" value="Feminino">Feminino<br><br>
+ 		
+ 		<form id="Peso" method="POST" action="Peso.php">
+ 		<label for="Peso">Peso (kg):</label>
+ 		<input type="text" id="Peso" maxlength="6" value="80,30" disabled><br><br>
+
+ 		<form id="Altura" method="POST" action="Altura.php">
+ 		<label for="Altura">Altura (m):</label>
+ 		<input type="text" id="Altera" maxlength="4" value="1,90" disabled><br>
+ 		</form><br>
+
+ 		<a href="C:\Users\Hamilton\Desktop\html\Rotina.html">Continuar</a>
+ 	</body>	

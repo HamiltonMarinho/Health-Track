@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="pt-pr">
+	<head>
+		<meta charset="utf-8">
+		<title>Dashboard</title>
+		<meta name="keywords" content="health, track">
+		<style>
+			body { background-color: lightgreen; }
+ 		</style>
+ 	<head>
+ 	<body>
+ 		<h1> DASHBOARD </h1>
+ 		
+		<p> Ola, ja bebeu agua hoje? <p/>
+ 	</body>	
